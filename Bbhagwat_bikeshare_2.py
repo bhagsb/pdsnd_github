@@ -39,7 +39,7 @@ def get_filters():
         if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             break
         else:
-            print("invalid input. Please enter a valid input")
+            print("Invalid input. Please enter a valid day.")
     print('-'*40)
     return city, month, day
 
