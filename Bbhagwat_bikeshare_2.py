@@ -23,7 +23,7 @@ def get_filters():
         if city in ['chicago', 'new york city', 'washington']:
             break
         else:
-            print("invalid input. Please enter a valid input")
+            print("Invalid input. Please enter a valid city.")
     # get user input for month (all, january, february, ... , june)
     while True:    
         month = input("Do you want details specific to a particular month? If yes, type month name from within first six months else type 'all'")
