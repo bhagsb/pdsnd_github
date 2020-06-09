@@ -31,7 +31,7 @@ def get_filters():
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
         else:
-            print("invalid input. Please enter a valid input")
+            print("Invalid input. Please enter a valid month.")
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input("Do you want details specific to a particular day? If yes, type day name else type 'all'")
