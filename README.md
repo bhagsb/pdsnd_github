@@ -10,7 +10,7 @@ Exploratory Data Analysis by using Python to understand data related to bike sha
 ### Files used
 chicago.csv
 new_york_city.csv
-Washington.csv
+washington.csv
 bikeshare.py
 
 ### Credits
